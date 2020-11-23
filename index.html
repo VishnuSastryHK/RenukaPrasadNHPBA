@@ -1,0 +1,1116 @@
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Renuka Prasad N H - Premier Badminton Academy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="icon" href="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Logo.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="C:\Users\VISHNU SASTRY HK\Desktop\Digital Card\Raghavan_Padmanabha\RP_CSS.css">
+    <!--link rel="stylesheet" href="C:\Users\VISHNU SASTRY HK\Desktop\Digital Card\Murali_Krishna\DigitalCardMurali.css"-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        function switchStyle() {
+            if (document.getElementById('styleSwitch').checked) {
+                document.getElementById('gallery').classList.add("custom");
+                document.getElementById('exampleModal').classList.add("custom");
+            } else {
+                document.getElementById('gallery').classList.remove("custom");
+                document.getElementById('exampleModal').classList.remove("custom");
+            }
+        }
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <script>
+        $('html').css('overflow-x', 'initial');
+
+        $(function() {
+            $('#video').css({
+                width: $(window).innerWidth() + 'px',
+                height: $(window).innerHeight() + 'px'
+            });
+
+            $(window).resize(function() {
+                $('#video').css({
+                    width: $(window).innerWidth() + 'px',
+                    height: $(window).innerHeight() + 'px'
+                });
+            });
+        });
+
+        function myFunction() {
+            var copyText = document.getElementById("myInput");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999)
+            document.execCommand("copy");
+        }
+    </script>
+
+
+    <script>
+        /*
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        document.onkeydown = function(e) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (event.keyCode == 123) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                return false;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (e.ctrlKey && e.shiftKey && (e.keyCode == 'I'.charCodeAt(0) || e.keyCode == 'i'.charCodeAt(0))) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                return false;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (e.ctrlKey && e.shiftKey && (e.keyCode == 'C'.charCodeAt(0) || e.keyCode == 'c'.charCodeAt(0))) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                return false;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (e.ctrlKey && e.shiftKey && (e.keyCode == 'J'.charCodeAt(0) || e.keyCode == 'j'.charCodeAt(0))) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                return false;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (e.ctrlKey && (e.keyCode == 'U'.charCodeAt(0) || e.keyCode == 'u'.charCodeAt(0))) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                return false;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (e.ctrlKey && (e.keyCode == 'S'.charCodeAt(0) || e.keyCode == 's'.charCodeAt(0))) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                return false;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
+        function validation() {
+            var name, phno, city, state, message;
+
+            name = document.getElementById("NAME").value;
+            phno = document.getElementById("PHNO").value;
+            city = document.getElementById("CITY").value;
+            state = document.getElementById("STATE").value;
+            message = document.getElementById("MESSAGE").value;
+
+            var win = window.open(`https://wa.me/${919845143795}?text=Hi%0A%0DI%27m%20${name}%20from%20${city},%20${state}%0A%0D${message}.%0A%0DYou%20can%20contact%20me%20on%20${phno}.%0A%0DThank%20you.`, '_blank');
+        }
+    </script>
+
+
+</head>
+
+<body oncontextmenu="return false;">
+    <!--Main Container-->
+    <div id="LinkToHomeSection"></div>
+    <div class="container" id="MainContainer">
+        <div class="row row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
+            <div class="col text-center">
+                <br>
+                <img id="CompanyLogo" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_LogoForContactContainer.jpg">
+                <br>
+                <br>
+                <img data-aos="zoom-in" id="CompanyLogo" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_PhotoRenukaPrasad.jpeg">
+                <br>
+                <br>
+                <h4>Renuka Prasad N H</h4>
+                <h6>Co-Founder and Chairman</h6>
+                <br>
+                <br>
+            </div>
+
+
+            <div class="col text-center justify-content-md-center" id="ContactContainer">
+                <br>
+                <div id="ContactCont">
+                    <div class="row">
+                        <a class="aInContact" href="tel:919845143795">
+                            <h6 class="ContactText">
+                                <i class="MainContainerIcons fa fa-phone"></i> &nbsp +91 9845143795
+                            </h6>
+                        </a>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <a class="aInContact" target="_blank" href="https://api.whatsapp.com/send?phone=919845143795&text=">
+                            <h6 class="ContactText">
+                                <i class="MainContainerIcons fa fa-whatsapp"></i> &nbsp +91 9845143795
+                            </h6>
+                        </a>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <a class="aInContact" href="mailto:pbabangalore@gmail.com">
+                            <h6 class="ContactText"><i class="MainContainerIcons fa fa-envelope"></i> &nbsp pbabangalore@gmail.com
+                            </h6>
+                        </a>
+                    </div>
+                    <br>
+                    <!--div class="row">
+                    <a class="aInContact" target="_blank" href="http://www.welllit.in/">
+                        <h6 class="ContactText"><i class="MainContainerIcons fa fa-at"></i> &nbsp http://www.welllit.in
+                        </h6>
+                    </a>
+                </div>
+                <br-->
+                    <div class="row">
+                        <a class="aInContact" id="MAIL_ID" href="https://www.google.com/search?safe=active&rlz=1C1CHBF_enIN819IN819&tbm=lcl&sxsrf=ALeKk010P7qkG8pfBjB23mn7bhSnjQohpg:1605012612484&q=G3,+Shivaganga+Meadows,+3rd+Main,+Krishna+Nagar,+uttarahalli+main+road,+Bangalore-560061&spell=1&sa=X&ved=0ahUKEwiW1oH1gfjsAhUT6XMBHSByANEQBQgmKAA&biw=1280&bih=578&dpr=1.5#rlfi=hd:;si:11788200953195056583;mv:[[12.908250277319029,77.5529261433035],[12.90789032268097,77.5525568566965]]"
+                            target="_blank">
+                            <h6 class="ContactText contact-info-wrapper">
+                                <center><i class="MainContainerIcons fa fa-map-marker" style="margin-right:10px;"></i></center>
+                                G3, Shivaganga Meadows, 3rd Main, Krishnanagar, Uttarahalli main road, Bangalore-560061
+                            </h6>
+                        </a>
+                    </div>
+                    <br>
+                    <br>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row flex text-center justify-content-md-center divForButtonsInContactContainer">
+            <br>
+            <br>
+            <!-- Save to phone book -->
+            <a href="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_RenukaPrasad.vcf" download="">
+                <button class="button_in_contact_container">
+          <p><i class="fa fa-download"></i>&nbsp&nbspAdd to Phone Book</p>
+        </button>
+            </a>
+
+
+            <!-- Trigger/Open The Modal for Share -->
+            <!--script src='https://kit.fontawesome.com/a076d05399.js'></script-->
+            <button id="myBtn" class="button_in_contact_container">
+        <p><i class="fa fa-share"></i>&nbsp&nbspShare</p>
+      </button>
+            </center>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+
+
+                    <div>
+                        <h4>Share via</h4>
+                    </div>
+
+                    <br>
+                    <div id="share-buttons">
+
+                        <!--WhatsApp-->
+                        <div class="share_button_container">
+                            <a href="whatsapp://send?text=https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/" data-action="share/whatsapp/share">
+                                <img class="share-buttons" src="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/whatsapp.png" alt="WhatsApp">
+                                <p class="text_in_share">Whatsapp</p>
+                            </a>
+                        </div>
+
+                        <!--Messaging-->
+                        <div class="share_button_container">
+                            <a target="_blank" href="sms:?body=Check out this: https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/">
+                                <img class="share-buttons" src="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/message.png" alt="WhatsApp">
+                                <p class="text_in_share">Messages</p>
+                            </a>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="share_button_container">
+                            <a href="mailto:?Subject=Digital Visiting Card&amp;Body=Check%20out%20this%20Digital%20Visiting%20Card%20%0D%0Ahttps://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/">
+                                <img class="share-buttons" src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+                                <p class="text_in_share">Email</p>
+                            </a>
+                        </div>
+
+                        <!-- Facebook -->
+                        <div class="share_button_container">
+                            <a href="http://www.facebook.com/sharer.php?u=https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/" target="_blank">
+                                <img class="share-buttons" src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+                                <p class="text_in_share">Facebook</p>
+                            </a>
+                        </div>
+
+                        <!-- LinkedIn -->
+                        <div class="share_button_container">
+                            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/" target="_blank">
+                                <img class="share-buttons" src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+                                <p class="text_in_share">LinkedIn</p>
+                            </a>
+                        </div>
+
+
+                        <!-- Twitter -->
+                        <div class="share_button_container">
+                            <a href="https://twitter.com/share?url=https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/&amp;text=Check%20out%20this%20Digital%20Visiting%20Card&amp;hashtags=PremierBadmintonAcademy" target="_blank">
+                                <img class="share-buttons" src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+                                <p class="text_in_share">Twitter</p>
+                            </a>
+                        </div>
+
+                        <br>
+                        <br>
+                        <div class="link">
+
+                            <div class="pen-url"><input type="text" value="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/" id="myInput"></div>
+                            <button onclick="myFunction()" class="copy-link-button">Copy Link</button>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <script>
+                // Get the modal
+                var modal = document.getElementById("myModal");
+
+                // Get the button that opens the modal
+                var btn = document.getElementById("myBtn");
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks the button, open the modal 
+                btn.onclick = function() {
+                    modal.style.display = "block";
+                }
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            </script>
+        </div>
+    </div>
+    <br>
+
+    <div id="LinkToAboutSection"></div>
+    <div class="container" id="MainContainer">
+        <center>
+            <h2 data-aos="zoom-out" class="Headings">ABOUT</h2>
+        </center>
+        <br>
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-8 col-md-8 col-sm-12 col-xs-12 col-centered ">
+                <div class="container">
+                    <p>
+                        <b>Name of the company: </b> Premier Badminton Academy
+                    </p>
+                    <br>
+                    <p>
+                        <b>
+              Year of Establishment:
+            </b> 2011
+                    </p>
+                    <br>
+                    <b>
+            <p>
+              Nature Of Business:
+          </b>
+                    </p>
+                    <p>
+                        We provide Badminton Coaching for kids and seniors. We specialize in Badminton Stadium Construction - Turnkey, Swimming Pools construction, Basketball flooring, Badminton flooring, Multi sport flooring.
+                    </p>
+                    <br>
+                    <p><b>
+              Why Premier Badminton Academy?
+            </b></p>
+                    <ol>
+                        <li>Badminton stadium construction:</li>
+                        <ul>
+                            <li>Completion in just 100 days</li>
+                            <li>10 years warranty</li>
+                            <li>Sustainable business model to achieve ROI within 3 to 4 years</li>
+                            <li>Latest technology and quality</li>
+                        </ul>
+                        <br>
+                        <li>Swimming pools:</li>
+                        <ul>
+                            <li>Latest quality pools with maintenance backup</li>
+                        </ul>
+                        <br>
+                        <li>Badminton coaching :</li>
+                        <ul>
+                            <li>Scientific warmups</li>
+                            <li>Technical training</li>
+                            <li>Concepts</li>
+                            <li>Stroke play, games</li>
+                            <li>Yogasanas</li>
+                        </ul>
+                    </ol>
+
+
+                    <br>
+                    <!--p><b>Checkout these Links:</b></p>
+                    <a href="https://drive.google.com/file/d/1ep3cLKh3sG3A0rPOw0tWNpYkne4dVjPt/view?usp=sharing">
+                        <p style="display:inline-block"><i class="fa fa-chain" style="color:black"></i> https://drive.google.com/file/d/1ep3cL
+                            <wbr>Kh3sG3A0rPOw0tWNpYkne4dVjPt/view?usp=sharing</p>
+                    </a>
+                    <a href=" https://drive.google.com/file/d/1ep3cLKh3sG3A0rPOw0tWNpYkne4dVjPt/view?usp=sharing">
+                        <p><i class="fa fa-chain " style="color:black"></i> https://drive.google.com/file/d/1ep3cL
+                            <wbr>Kh3sG3A0rPOw0tWNpYkne4dVjPt/view?usp=sharing</p>
+                    </a>
+
+                    <br-->
+
+                    <p><b>Checkout these docs:</b></p>
+
+                    <p><a target="_blank" href="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_AcademyProfile.pdf" download="Premier_Badminton_Academy_Profile"><i class="fa fa-file-pdf-o"
+                style="color:red"></i>&nbsp&nbspPremier Badminton Academy Profile</p></a>
+
+                        <!--p><a target="_blank" href="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/welllit_company_profile.pdf" download="well_Lit_Luminaires_Profile"><i class="fa fa-file-pdf-o"
+                style="color:red"></i>&nbsp&nbspWell-Lit Company Profile</p></a-->
+                        <br>
+                        <p><b>Get Connected with us:</b></p>
+                        <!--p>
+                            <a target="_blank" href="https://www.facebook.com/raghavansharma.padmanabha"><img src="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/facebook.jpg" class="get_connected_icon"></i>&nbsp&nbspwww.facebook.com/<wbr>raghavansharma.padmanabha</p>
+                        </a>
+                        <p>
+                            <a target="_blank" href="https://www.instagram.com/raghavansharma/?igshid=1u2uamiui6a6z"><img src="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/instagram.jpg" class="get_connected_icon"></i>&nbsp&nbspwww.instagram.com/<wbr>raghavansharma</p>
+                        </a-->
+                        <p>
+                            <a target="_blank" href="https://www.indiamart.com/premierbadmintomacademy/profile.html"><img src="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/indiamart.jpg" class="get_connected_icon"></i>&nbsp&nbspwww.indiamart.com/<wbr>premierbadmintomacademy</p>
+                        </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+    <div id="LinkToProductsSection"></div>
+    <div class="container" id="MainContainer">
+        <center>
+            <h2 data-aos="zoom-out" class="Headings">PRODUCTS</h2>
+        </center>
+        <br>
+        <div class="container Product_Container">
+            <div class="container Product_Heading_Container">
+                <h5 data-aos="zoom-in" class="Product_headings">Pre-Engineered Structures</h5>
+            </div>
+            <br>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
+                <div class="col ">
+                    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 justify-content-md-center text-centered" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                        <div class="col justify-content-md-center text-center">
+                            <img data-aos="fade-left" class="photos_in_product" class="w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product1A.jpg" data-target="#carouselExample" data-slide-to="0">
+                        </div>
+                        <div class="col justify-content-md-center text-center">
+                            <img data-aos="fade-right" class="photos_in_product" class="w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product1B.jpg" data-target="#carouselExample" data-slide-to="1">
+                        </div>
+                        <div class="col justify-content-md-center text-center">
+                            <img data-aos="fade-left" class="photos_in_product" class="w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product1C.jpg" data-target="#carouselExample" data-slide-to="2">
+                        </div>
+                        <div class="col justify-content-md-center text-center">
+                            <img data-aos="fade-right" class="photos_in_product" class="w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product1D.jpg" data-target="#carouselExample" data-slide-to="3">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="container Products_Text_Container">
+                        <br>
+                        <p>
+                            <b>Features:</b>
+                            <ul>
+                                <li>MS Steel structures</li>
+                                <li>Suitable for Factory and Godowns</li>
+                                <li>Long lasting</li>
+                                <li>Less time for construction </li>
+                            </ul>
+                        </p>
+                        <br>
+
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=919845143795&text=Got%20reference%20from%20your%20Digital%20Visiting%20Card.%20Please%20let%20me%20know%20more%20about%20your%20Pre-Engineered%20Structures." data-action="share/whatsapp/share">
+                            <button type="button" class="Product_Enquiry_Button">
+                <i class="fa fa-whatsapp"></i>
+                Enquire
+              </button>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <br>
+        <div class="container Product_Container">
+            <div class="container Product_Heading_Container">
+                <h5 data-aos="zoom-in" class="Product_headings">Badminton Court Flooring</h5>
+            </div>
+            <br>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
+                <div class="col justify-content-md-center text-center">
+                    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 justify-content-md-center text-centered" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                        <div class="col justify-content-md-center text-center">
+                            <img data-aos="fade-left" class="photos_in_product" class="w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product2A.jpg" data-target="#carouselExample" data-slide-to="4">
+                        </div>
+                        <div class="col justify-content-md-center text-center">
+                            <img data-aos="fade-right" class="photos_in_product" class="w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product2B.jpg" data-target="#carouselExample" data-slide-to="5">
+                        </div>
+                        <div class="col justify-content-md-center text-center">
+                            <img data-aos="fade-left" class="photos_in_product" class="w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product2C.jpg" data-target="#carouselExample" data-slide-to="6">
+                        </div>
+                        <div class="col justify-content-md-center text-center">
+                            <img data-aos="fade-right" class="photos_in_product" class="w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product2D.jpg" data-target="#carouselExample" data-slide-to="7">
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 justify-content-md-center text-centered" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                        <div class="col text-center justify-content-md-center">
+                            <img data-aos="zoom-in" class="photos_in_product" class="w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product2E.jpg" data-target="#carouselExample" data-slide-to="8">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="container Products_Text_Container">
+                        <br>
+                        <p>
+                            <b>Features:</b>
+                            <ul>
+                                <li>Durable</li>
+                                <li>10 years warranty</li>
+                                <li>Ultimate cushion</li>
+                                <li>Minimal maintenance</li>
+                                <li>Latest technology</li>
+                                <li>Best pricing </li>
+                            </ul>
+                        </p>
+                        <br>
+
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=919845143795&text=Got%20reference%20from%20your%20Digital%20Visiting%20Card.%20Please%20let%20me%20know%20more%20about%20your%20Badminton%20Court%20Flooring.">
+                            <button type="button" class="Product_Enquiry_Button">
+                <i class="fa fa-whatsapp"></i>
+                Enquire
+              </button>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <br>
+        <div class="container Product_Container">
+            <div class="container Product_Heading_Container">
+                <h5 data-aos="zoom-in" class="Product_headings">Badminton Synthetic Flooring</h5>
+            </div>
+            <br>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
+                <div class="col ">
+                    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 justify-content-md-center text-center" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                        <div class="col justify-content-md-center text-center">
+                            <img data-aos="fade-left" class="photos_in_product" class="w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product3A.jpg" data-target="#carouselExample" data-slide-to="9">
+                        </div>
+                        <div class="col justify-content-md-center text-center">
+                            <img data-aos="fade-right" class="photos_in_product" class="w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product3B.jpg" data-target="#carouselExample" data-slide-to="10">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="container Products_Text_Container">
+                        <br>
+                        <p>
+                            <b>Features:</b>
+                            <ul>
+                                <li>5 years manufacturer warranty</li>
+                                <li>Zero maintenance </li>
+                                <li>Long lasting</li>
+                            </ul>
+                        </p>
+                        <br>
+
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=919845143795&text=Got%20reference%20from%20your%20Digital%20Visiting%20Card.%20Please%20let%20me%20know%20more%20about%20your%20Badminton%20Synthetic%20Flooring.">
+                            <button type="button" class="Product_Enquiry_Button">
+                <i class="fa fa-whatsapp"></i>
+                Enquire
+              </button>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <br>
+        <div class="container Product_Container">
+            <div class="container Product_Heading_Container">
+                <h5 data-aos="zoom-in" class="Product_headings">Swimming pools</h5>
+            </div>
+            <br>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
+                <div class="col ">
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 justify-content-md-center text-centered" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                        <div class="col justify-content-md-center text-center">
+                            <iframe class="videos" id="videos" data-aos="zoom-in" src="https://drive.google.com/file/d/1m3Fot9lU7HnqqgJ2K9fMWpxaF99OArQy/preview" frameborder="0" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="container Products_Text_Container">
+                        <br>
+                        <p>
+                            <b>Features:</b>
+                            <ul>
+                                <li>Minimum maintenance pools</li>
+                                <li>Heated pools</li>
+                                <li>Olympic size pools</li>
+                                <li>Kids pool</li>
+                                <li>Exercise pools</li>
+                            </ul>
+                        </p>
+                        <br>
+
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=919845143795&text=Got%20reference%20from%20your%20Digital%20Visiting%20Card.%20Please%20let%20me%20know%20more%20about%20your%20Swimming%20Pools.">
+                            <button type="button" class="Product_Enquiry_Button">
+                <i class="fa fa-whatsapp"></i>
+                Enquire
+              </button>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <br>
+        <div class="container Product_Container">
+            <div class="container Product_Heading_Container">
+                <h5 data-aos="zoom-in" class="Product_headings">Sports Stadium Turnkey construction</h5>
+            </div>
+            <br>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
+                <div class="col justify-content-md-center text-center">
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 justify-content-md-center text-centered" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                        <div class="col justify-content-md-center text-center">
+                            <iframe class="videos" id="videos" data-aos="fade-top" src="https://drive.google.com/file/d/1jYV2PKsk8NReQ2GwK9tYzO3rcBvS50Ak/preview" frameborder="0" allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="col justify-content-md-center text-center">
+                            <img data-aos="fade-bottom" class="photos_in_product" class="w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product5B.jpg" style="width:95%" data-target="#carouselExample" data-slide-to="11">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="container Products_Text_Container">
+                        <br>
+                        <p>
+                            <b>Features:</b>
+                            <ul>
+                                <li>Single point of contact</li>
+                                <li>Consulting, execution, handover in just 100 days </li>
+                                <li>10 years warranty</li>
+                                <li>ROI achievement model</li>
+                            </ul>
+                        </p>
+                        <br>
+
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=919845143795&text=Got%20reference%20from%20your%20Digital%20Visiting%20Card.%20Please%20let%20me%20know%20more%20about%20your%20Sports%20Stadium%20Turnkey%20Construction. ">
+                            <button type="button " class="Product_Enquiry_Button ">
+                <i class="fa fa-whatsapp "></i>
+                Enquire
+              </button>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <br>
+        <div class="container Product_Container ">
+            <div class="container Product_Heading_Container ">
+                <h5 data-aos="zoom-in" class="Product_headings ">Badminton netpoles</h5>
+            </div>
+            <br>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 ">
+                <div class="col ">
+                    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 justify-content-md-center text-centered" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                        <div class="col justify-content-md-center text-center ">
+                            <img data-aos="fade-left" class="photos_in_product " class="w-100 " src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product6A.jpg " data-target="#carouselExample" data-slide-to="12">
+                        </div>
+                        <div class="col justify-content-md-center text-center ">
+                            <img data-aos="fade-right" class="photos_in_product " class="w-100 " src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product6B.jpg " data-target="#carouselExample" data-slide-to="13">
+                        </div>
+                        <div class="col justify-content-md-center text-center ">
+                            <img data-aos="fade-left" class="photos_in_product " class="w-100 " src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product6C.jpg " data-target="#carouselExample" data-slide-to="14">
+                        </div>
+                        <div class="col justify-content-md-center text-center ">
+                            <img data-aos="fade-right" class="photos_in_product " class="w-100 " src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product6E.jpg " data-target="#carouselExample" data-slide-to="15">
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="container Products_Text_Container ">
+                        <br>
+                        <p>
+                            <b>Features:</b>
+                            <ul>
+                                <li>Weight: 190 kg</li>
+                                <li>10 gauge poles which are very sturdy</li>
+                                <li>Long lasting</li>
+                                <li>With metal rolling wheels on top </li>
+                            </ul>
+                        </p>
+                        <br>
+
+                        <a target="_blank " href="https://api.whatsapp.com/send?phone=919845143795&text=Got%20reference%20from%20your%20Digital%20Visiting%20Card.%20Please%20let%20me%20know%20more%20about%20your%20Badminton%20Netpoles. ">
+                            <button type="button " class="Product_Enquiry_Button ">
+                <i class="fa fa-whatsapp "></i>
+                Enquire
+              </button>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <br>
+        <div class="container Product_Container ">
+            <div class="container Product_Heading_Container ">
+                <h5 data-aos="zoom-in" class="Product_headings ">Cotton grips</h5>
+            </div>
+            <br>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 ">
+                <div class="col ">
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 justify-content-md-center text-centered " id="gallery" data-toggle="modal" data-target="#exampleModal">
+                        <div class="col justify-content-md-center text-center ">
+                            <img data-aos="zoom-in" class="photos_in_product " class="w-100 " src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product7.jpg " data-target="#carouselExample" data-slide-to="16">
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="container Products_Text_Container ">
+                        <br>
+                        <p>
+                            <b>Features:</b>
+                            <ul>
+                                <li>Perfect for sweating hands</li>
+                                <li>Choose from wide range of colours</li>
+                                <li>Long threads enhance better gripping</li>
+                            </ul>
+                        </p>
+                        <br>
+
+                        <a target="_blank " href="https://api.whatsapp.com/send?phone=919845143795&text=Got%20reference%20from%20your%20Digital%20Visiting%20Card.%20Please%20let%20me%20know%20more%20about%20your%20Badminton%20Cotton%20Grips.">
+                            <button type="button" class="Product_Enquiry_Button">
+                <i class="fa fa-whatsapp "></i>
+                Enquire
+              </button>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <br>
+    <div id="LinkToGallerySection"></div>
+    <div class="container" id="MainContainer">
+        <center>
+            <h2 data-aos="zoom-out" class="Headings ">Gallery</h2>
+        </center>
+        <br>
+        <div class="container Payment_Container ">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 " id="gallery" data-toggle="modal" data-target="#exampleModal">
+                <div class="col text-center justify-content-md-center ">
+                    <img data-aos="fade-right" class="photos" class="w-100 " src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Gal1.jpg " data-target="#carouselExample" data-slide-to="17">
+
+                </div>
+                <div class="col text-center justify-content-md-center ">
+                    <img data-aos="zoom-in" class="photos" class="w-100 " src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Gal2.jpg " data-target="#carouselExample" data-slide-to="18">
+
+                </div>
+                <div class="col text-center justify-content-md-center ">
+                    <img data-aos="zoom-in" class="photos" class="w-100 " src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Gal3.jpg " data-target="#carouselExample" data-slide-to="19">
+
+                </div>
+                <div class="col text-center justify-content-md-center ">
+                    <img data-aos="fade-left" class="photos" class="w-100 " src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Gal4.jpg " data-target="#carouselExample" data-slide-to="20">
+
+                </div>
+            </div>
+            <br>
+
+            <!--p class="TextInGallery ">For more photos:<br> <a target="_blank " href="https://drive.google.com/drive/folders/0B9M6ZLDoqCn6Uk1NRjFmc1JSTzg?usp=sharing ">
+          https://drive.google.com/<wbr>drive/folders/0B9M<wbr>6ZLDoqCn6Uk1NRjFmc1JST<wbr>zg?usp=sharing</p>
+      </a-->
+        </div>
+        <br>
+        <div class="container Payment_Container">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 ">
+                <div class="col text-center justify-content-md-center ">
+                    <iframe class="videos" id="videos" data-aos="fade-left" src="https://drive.google.com/file/d/1dBdohjnp8OjjDAXs2tP2B9lxIK8hbYJI/preview " frameborder="0 " allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="col text-center justify-content-md-center ">
+                    <iframe class="videos" id="videos" data-aos="zoom-in" src="https://drive.google.com/file/d/1P6D-C7WNKZGqUl3bEyMzEF99X4ief894/preview " frameborder="0 " allowfullscreen>
+          </iframe>
+                </div>
+                <div class="col text-center justify-content-md-center ">
+                    <iframe class="videos" id="videos" data-aos="fade-right" src="https://drive.google.com/file/d/1mmUy8LJuHfquDyM55g2uIIL6FNsD0xRQ/preview " frameborder="0 " allowfullscreen>
+          </iframe>
+                </div>
+            </div>
+            <!--p class="TextInGallery ">For more videos: <br> <a target="_blank " href="https://www.youtube.com/embed/videoseries?list=PLh6pIkdv4LuujfvzXaE63fnSyHsxn919A ">
+          https://www.youtube.com/<wbr>embed/videoseries?list=P<wbr>Lh6pIkdv4LuujfvzXaE<wbr>63fnSyHsxn919A</p>
+      </a-->
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <!-- 
+  This part is straight out of Bootstrap docs. Just a carousel inside a modal.
+  -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExample" data-slide-to="1"></li>
+                            <li data-target="#carouselExample" data-slide-to="2"></li>
+                            <li data-target="#carouselExample" data-slide-to="3"></li>
+                            <li data-target="#carouselExample" data-slide-to="4"></li>
+                            <li data-target="#carouselExample" data-slide-to="5"></li>
+                            <li data-target="#carouselExample" data-slide-to="6"></li>
+                            <li data-target="#carouselExample" data-slide-to="7"></li>
+                            <li data-target="#carouselExample" data-slide-to="8"></li>
+                            <li data-target="#carouselExample" data-slide-to="9"></li>
+                            <li data-target="#carouselExample" data-slide-to="10"></li>
+                            <li data-target="#carouselExample" data-slide-to="11"></li>
+                            <li data-target="#carouselExample" data-slide-to="12"></li>
+                            <li data-target="#carouselExample" data-slide-to="13"></li>
+                            <li data-target="#carouselExample" data-slide-to="14"></li>
+                            <li data-target="#carouselExample" data-slide-to="15"></li>
+                            <li data-target="#carouselExample" data-slide-to="16"></li>
+                            <li data-target="#carouselExample" data-slide-to="17"></li>
+                            <li data-target="#carouselExample" data-slide-to="18"></li>
+                            <li data-target="#carouselExample" data-slide-to="19"></li>
+                            <li data-target="#carouselExample" data-slide-to="20"></li>
+
+
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product1A.jpg " alt="First slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product1B.jpg " alt="First slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product1C.jpg " alt="First slide ">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product1D.jpg " alt="First slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product2A.jpg " alt="Second slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product2B.jpg " alt="Third slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product2C.jpg " alt="Fourth slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product2D.jpg " alt="Fourth slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product2E.jpg " alt="Fourth slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product3A.jpg " alt="Second slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product3B.jpg " alt="Third slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product5B.jpg " alt="Fourth slide ">
+                            </div>
+                            <div class="carousel-item ">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product6A.jpg " alt="Fourth slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100 " src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product6B.jpg " alt="Fourth slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product6C.jpg " alt="Second slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product6E.jpg " alt="Third slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Product7.jpg " alt="Fourth slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Gal1.jpg " alt="Fourth slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Gal2.jpg " alt="Fourth slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Gal3.jpg " alt="Fourth slide ">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://vishnusastryhk.github.io/RaghavanPadmanabhaPBA/RP_Gal4.jpg " alt="Fourth slide ">
+                            </div>
+
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    <div id="LinkToPaymentSection"></div>
+    <div class="container" id="MainContainer">
+        <center>
+            <h2 data-aos="zoom-out" class="Headings">Payment Modes</h2>
+        </center>
+        <br>
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 ">
+            <div class="col text-center justify-content-md-center ">
+                <div class="container Payment_Container ">
+                    <img class="Payment_Logo" src="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/paytm.jpg ">
+                    <br><br>
+
+                    <h5>9845143795</h5>
+                    <h4>Raghavan Padmanabha</h4>
+
+                </div>
+            </div>
+            <div class="col text-center justify-content-md-center ">
+                <div class="container Payment_Container ">
+                    <img class="Payment_Logo" src="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/gpay.jpg ">
+                    <br><br>
+                    <h5>9845143795</h5>
+                    <h4>Raghavan Padmanabha</h4>
+
+                </div>
+            </div>
+            <div class="col text-center justify-content-md-center ">
+                <div class="container Payment_Container ">
+                    <img class="Payment_Logo " src="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/phonepe.jpg ">
+                    <br><br>
+                    <h5>9845143795</h5>
+                    <h4>Raghavan Padmanabha</h4>
+
+                </div>
+            </div>
+            <div class="col text-center justify-content-md-center ">
+                <div class="container Payment_Container ">
+                    <img class="Payment_Logo " src="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/bhim.jpg ">
+                    <br><br>
+                    <h5>9845143795</h5>
+                    <h4>raghavansha<wbr>rma@okicici</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container Payment_Container ">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 ">
+
+                <div class="col text-center justify-content-md-center ">
+                    <center>
+                        <h4><b>Bank Account Details:</b></h4>
+                        <br>
+                        <h5>Bank Name: ICICI Bank</h5>
+                        <h5>Account Number: 217805000617</h5>
+                        <h5>IFSC code: icic0002178 </h5>
+
+
+                    </center>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    <div id="LinkToEnquirySection"></div>
+    <div class="container" id="MainContainer">
+        <center>
+            <h2 data-aos="zoom-out" class="Headings ">Enquiry</h2>
+        </center>
+        <br>
+        <form>
+            <div class="form-row ">
+
+                <div class="col-md-6 mb-3 ">
+                    <div class="input-group ">
+                        <input id="NAME " type="text " class="form-control " id="validationDefault03 " placeholder="Enter your name " required>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3 ">
+                    <input id="PHNO " type="text " class="form-control " id="validationDefault03 " placeholder="Enter your Phone Number " required>
+                </div>
+            </div>
+            <div class="form-row ">
+                <div class="col-md-6 mb-3 ">
+                    <input id="CITY " type="text " class="form-control " id="validationDefault03 " placeholder="Enter your City " required>
+                </div>
+                <div class="col-md-6 mb-3 ">
+                    <input id="STATE " type="text " class="form-control " id="validationDefault04 " placeholder="Enter your State " required>
+                </div>
+            </div>
+            <div class="form-row ">
+                <textarea id="MESSAGE " rows="2 " cols="30 " class="form-control " id="validationDefault03 " placeholder="Enter Message " required></textarea>
+            </div>
+            <div class="form-group ">
+
+            </div>
+            <button class="btn btn-primary btn-sm " type="submit " onclick="validation() ">Send Enquiry</button>
+        </form>
+
+
+    </div>
+    <br>
+    <div class="container" id="MainContainer">
+        <center>
+            <br>
+            <p style="color:#5893d4 ">
+                <img src="https://vishnusastryhk.github.io/MuraliKrishnaWellLit/digiCardLogo.jpg " height="50px "> Vish DigiCards 2020</p>
+            <h6>Get your Digital Visiting Card Now!!&nbsp&nbsp
+                <br>
+                <br>
+                <a target="_blank " href="https://wa.me/919482494936?text=I%20am%20interested%20in%20making%20a%20Digital%20Visiting%20Card.%20Please%20provide%20me%20the%20details. ">
+                    <button type="button " class="Product_Enquiry_Button " data-toggle="button " aria-pressed="false " autocomplete="off ">
+            Click Here
+          </button>
+                </a>
+            </h6>
+        </center>
+    </div>
+    <br>
+    <br>
+    <div class="container " id="MainContainer ">
+        hjbjhvhvjv
+    </div>
+
+
+
+    <!--Navigation bar starts-->
+    <div id='footer' class="row justify-content-md-center text-center ">
+
+        <div class="col footer_div ">
+            <center>
+                <a href="#LinkToHomeSection ">
+                    <i class="fa fa-home "></i>
+                    <h6 class="footer_text ">Home</h6>
+                </a>
+            </center>
+        </div>
+
+        <div class="col footer_div ">
+            <center>
+                <a href="#LinkToAboutSection ">
+                    <i class="fa fa-address-card "></i>
+                    <h6 class="footer_text ">About</h6>
+                </a>
+            </center>
+        </div>
+
+
+        <div class="col footer_div ">
+            <center>
+                <a href="#LinkToProductsSection ">
+                    <i class="fa fa-shopping-bag "></i>
+                    <h6 class="footer_text ">Products</h6>
+                </a>
+        </div>
+
+
+        <div class="col footer_div ">
+            <center>
+                <a href="#LinkToGallerySection ">
+                    <i class="fa fa-snowflake-o "></i>
+                    <h6 class="footer_text ">Gallery</h6>
+                </a>
+            </center>
+        </div>
+
+
+
+        <div class="col footer_div ">
+            <center>
+                <a href="#LinkToPaymentSection ">
+                    <i class="fa fa-rupee "></i>
+                    <h6 class="footer_text ">Payment</h6>
+                </a>
+            </center>
+        </div>
+
+
+
+        <div class="col footer_div ">
+            <center>
+                <a href="#LinkToEnquirySection ">
+                    <i class="fa fa-send "></i>
+                    <h6 class="footer_text ">Enquiry</h6>
+                </a>
+            </center>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <!--Script for AOS animations like zoom-in, fade-up, etc.-->
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js "></script>
+
+    <script>
+        AOS.init({
+            duration: 400,
+        })
+    </script>
+</body>
+
+</html>
